@@ -1,68 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    }
-    header {
-        background: linear-gradient(to right, #27ec9a9a, #340253,#f55a0c);
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    .nav ul {
-    list-style-type: none;
-    padding: 0;
-    }
-    .nav__link {
-        color: #333;
-        text-decoration: none;
-        padding: 10px;
-        }
-    .content {
-    color: #333;
-    text-align: center;
-    padding: 10px;
-    }
-      .nav__link:hover {
-    color: #f55a0c;
-    }
-    .content {
-    padding: 20px;
-    }
-    .nav__link::after {
-        content: '\2718';
-        padding: 10px;
-        color: #27ec9a9a;
-        }
-    .gallery {
-     padding: 20px;
-            text-align: center;
-        }
-    .gallery-container img {
-            max-width: 32%;
-            height: auto;
-            margin: 10px;
-            border-radius: 50%; /* Это делает изображение круглым */
-            object-fit: cover;   /* Это обрезает изображение, чтобы оно заполнило круг */
-        }
-    .gallery-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        
-    .gallery-container img {
-            max-width: 30%;
-            height: auto;
-            margin: 10px;
-        }       
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: linear-gradient(to right, #27ec9a9a, #340253, #f55a0c);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.nav__link {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+.content {
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
+.nav__link:hover {
+  color: #f55a0c;
+}
+.content {
+  padding: 20px;
+}
+.nav__link::after {
+  content: "\2718";
+  padding: 10px;
+  color: #27ec9a9a;
+}
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+.gallery-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.gallery-container__img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%; /* Это делает изображение круглым */
+  object-fit: cover; /* Это обрезает изображение, чтобы оно заполнило круг */
+}
+
 footer {
-    background: linear-gradient(to right, #27ec9a9a, #340253,#f55a0c);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: after gallery;
-    width: 100%;
-    bottom: 0;
+  background: linear-gradient(to right, #27ec9a9a, #340253, #f55a0c);
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
