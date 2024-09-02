@@ -1,11 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: , sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 header {
-  background: linear-gradient(to right, #27ec9a9a, #340253, #f55a0c);
+  background: linear-gradient(
+    to right,
+    #feffffe6,
+    #06fadd,
+    #e996fe,
+    #ffec9a,
+    #feffffe6
+  );
   color: white;
   text-align: center;
   padding: 20px;
@@ -53,7 +60,14 @@ header {
 }
 
 footer {
-  background: linear-gradient(to right, #27ec9a9a, #340253, #f55a0c);
+  background: linear-gradient(
+    to right,
+    #feffffe6,
+    #06fadd,
+    #e996fe,
+    #ffec9a,
+    #feffffe6
+  );
   color: white;
   text-align: center;
   position: fixed;
